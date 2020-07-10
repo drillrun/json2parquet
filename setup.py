@@ -31,7 +31,7 @@ setup(
     url='https://github.com/andrewgross/json2parquet',
     install_requires=[
         'pyarrow==0.17.0',
-        'pandas==0.24.2',
+        'pandas>=1.0',
         'numpy>=1.14.0',
         'ciso8601'
     ],
